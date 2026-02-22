@@ -1,0 +1,27 @@
+17:30:41.786 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @TEST-10
+17:30:41.878 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': dev
+17:30:41.980 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:30:43.095 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+17:30:43.426 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.18)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:30:44.107 [main] DEBUG com.intuit.karate - response time in milliseconds: 677
+1 < 200
+1 < Date: Sat, 21 Feb 2026 22:30:43 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[]
+
+17:30:44.113 [main] INFO  com.intuit.karate - [print] [
+]
+ 
